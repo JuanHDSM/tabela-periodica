@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+:root {
+    --fonte-titulo: 'Lato', sans-serif;
+}
+
+
+/* ######### Formatações globais ############ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+div#container {
+    overflow-x: auto;
+}
+
+body {
+    font-family: var(--fonte-titulo);
+}
+
+p {
+    width: 50px;
+}
+
+td:hover {
+    border: 1px solid black;
+}
+
+
+/* ############# Tabela cabeçalho #############*/
+
+table#tabela-cabecalho{
+    border-collapse: collapse;
+    height: 200px;
+    margin: auto;
+}
+
+table#tabela-cabecalho td{
+    width: 200px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table#tabela-cabecalho td.dados-do-elemento{
+    border: none;
+    background-color: #96CD30;
+    font-size: 1.5em;
+}
+
+table#tabela-cabecalho td.dados-do-elemento:hover{
+    font-size: 2.3em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.231);
+}
+
+table#tabela-cabecalho td.dados-do-elemento:hover + td.nomes-dados-do-elemento{
+    font-size: 2em;
+    text-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.139);
+    color: black;
+}
+
+table#tabela-cabecalho td.nomes-dados-do-elemento{
+    border: none;
+    padding-left: 100px;
+    text-align: left;
+    width: 245px;
+    color: white;
+}   
+
+table#tabela-cabecalho td.nome{
+    border-radius: 0px;
+}
+
+table#tabela-cabecalho td.numero{
+    padding-left: 20px;
+    text-align: left;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+/* ############# CSS Tabela Principal ############# */
+
+table {
+    border-spacing: 4px;
+}
+
+table#tabela-principal {
+    margin: auto;
+}
+
+th {
+    font-size: 0.8em;
+    font-family: var(--fonte-titulo);
+    vertical-align: bottom;
+    padding-bottom: 5px;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.231);
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.espaco-numero {
+    font-size: 0.7em;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 30px;
+    border: none;
+}
+
+.sigla-elemento{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nome-elemento {
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-size: 0.7em;
+}
+
+.numero-atomico {
+    text-align: left;
+    padding-left: 2px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.coluna-1 {
+    background-color: #F1B200;
+}
+
+.coluna-2 {
+    background-color: #EADA00;
+}
+
+.coluna-3 {
+    background-color: #EB8E8E;
+}
+
+.coluna-13 {
+    background-color: #91BDCB;
+}
+
+.coluna-17 {
+    background-color: #5AC3E8;
+}
+
+.coluna-18 {
+    background-color: #2793E0;
+}
+
+
+/* ############# CSS Tabela Secundária ############# */
+
+table#tabela-secundaria {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+td.linha-branca {
+    background-color: white; 
+    border: none; 
+    height: 30px;
+}
+
+td.elementos-brancos {
+    background-color: white; 
+    border: none;
+}
+
+tr.tabela-secundaria-linha-1 {
+    background-color: #7bdee5;
+}
+
+tr.tabela-secundaria-linha-2 {
+    background-color: #D49BCD;
+}
+
+
+/* ############# Tabela do Rodapé ############# */
+
+table#tabela-rodape {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+table#tabela-rodape td {
+    border: none;
+    min-width: 20px;
+}
+
+td.grupo {
+    text-align: left;
+    padding-right: 100px;
+}
+
+/*### Primeira linha ###*/
+
+td.nao-metais {
+    background-color: #A1D344;
+}
+
+td.semimetais {
+    background-color: #4DB6AC;
+}
+
+td.outros-metais {
+    background-color: #A2C7D3;
+}
+
+td.lantanideos {
+    background-color: #90E3E9;
+}
+
+td.metais-alcalinos {
+    background-color: #F1B200;
+}
+
+/*### Segunda linha ###*/
+
+td.metais-de-transicao {
+    background-color: #EB8E8E;
+}
+
+td.gases-nobres {
+    background-color: #3D9EE3;
+}
+
+td.alcalino-terrosos {
+    background-color: #EADA00;
+}
+
+td.halogenios {
+    background-color: #70CBEB;
+}
+
+td.actinidios {
+    background-color: #DCADD6;
+}
