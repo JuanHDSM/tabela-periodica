@@ -43,29 +43,29 @@ td:hover {
 
 table#tabela-cabecalho{
     border-collapse: collapse;
-    height: 170px;
+    height: 130px;
     margin: auto;
 }
 
 table#tabela-cabecalho td{
-    width: 160px;
+    width: 115px;
     border-radius: 5px 5px 0px 0px;
 }
 
 table#tabela-cabecalho td.dados-do-elemento{
     border: white;
     background-color: #96CD30;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 table#tabela-cabecalho td.dados-do-elemento:hover{
-    font-size: 2em;
+    font-size: 1.6em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.231);
 }
 
 table#tabela-cabecalho td.dados-do-elemento:hover + td.nomes-dados-do-elemento{
-    font-size: 2em;
-    text-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.139);
+    font-size: 1.6em;
+    text-shadow: 2px 2px 2.2px rgba(0, 0, 0, 0.139);
     color: black;
 }
 
