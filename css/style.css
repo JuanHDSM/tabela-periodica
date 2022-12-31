@@ -15,8 +15,8 @@
 }
 
 h1 {
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 2em;
     text-align: center;
     font-family: var(--fonte-titulo);
@@ -44,7 +44,7 @@ td:hover {
 }
 
 
-/* ############# Tabela cabeçalho #############*/
+/* ############# CSS Tabela cabeçalho #############*/
 
 table#tabela-cabecalho{
     border-collapse: collapse;
@@ -127,7 +127,7 @@ td {
     font-weight: bolder;
     text-align: left;
     padding-bottom: 30px;
-    border: white;
+    border: none;
 }
 
 .sigla-elemento{
@@ -149,28 +149,42 @@ td {
     font-weight: bold;
 }
 
-.coluna-1 {
+/* ####### Cores das células ####### */
+
+.laranja {
     background-color: #F1B200;
 }
 
-.coluna-2 {
+.amarelo {
     background-color: #EADA00;
 }
 
-.coluna-3 {
+.rosa {
     background-color: #EB8E8E;
 }
 
-.coluna-13 {
+.azul-claro2 {
     background-color: #91BDCB;
 }
 
-.coluna-17 {
+.azul {
     background-color: #5AC3E8;
 }
 
-.coluna-18 {
+.azul-escuro {
     background-color: #2793E0;
+}
+
+.verde-claro {
+    background-color: #96CD30;
+}
+
+.verde-azulado {
+    background-color: #44A69C;
+}
+
+.branco {
+    background-color: white
 }
 
 
@@ -193,16 +207,16 @@ td.elementos-brancos {
     border: white;
 }
 
-tr.tabela-secundaria-linha-1 {
+.azul-claro {
     background-color: #7bdee5;
 }
 
-tr.tabela-secundaria-linha-2 {
+.lilas {
     background-color: #D49BCD;
 }
 
 
-/* ############# Tabela do Rodapé ############# */
+/* ############# CSS Tabela do Rodapé ############# */
 
 table#tabela-rodape {
     margin: auto;
@@ -221,7 +235,7 @@ td.grupo {
     padding-right: 100px;
 }
 
-/*### Primeira linha ###*/
+/*### Cores primeira linha ###*/
 
 td.nao-metais {
     background-color: #A1D344;
@@ -243,7 +257,7 @@ td.metais-alcalinos {
     background-color: #F1B200;
 }
 
-/*### Segunda linha ###*/
+/*### Cores segunda linha ###*/
 
 td.metais-de-transicao {
     background-color: #EB8E8E;
