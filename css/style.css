@@ -24,6 +24,11 @@ h1 {
 
 div#container {
     overflow-x: auto;
+    position: relative;
+    height: 635px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 0px;
 }
 
 body {
@@ -43,34 +48,38 @@ td:hover {
 
 table#tabela-cabecalho{
     border-collapse: collapse;
-    height: 200px;
-    margin: auto;
+    height: 130px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -291.1px 0 0 -350px;
 }
 
 table#tabela-cabecalho td{
-    width: 200px;
+    width: 115px;
     border-radius: 5px 5px 0px 0px;
 }
 
 table#tabela-cabecalho td.dados-do-elemento{
-    border: none;
+    border: white;
     background-color: #96CD30;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 table#tabela-cabecalho td.dados-do-elemento:hover{
-    font-size: 2.3em;
+    font-size: 1.6em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.231);
 }
 
 table#tabela-cabecalho td.dados-do-elemento:hover + td.nomes-dados-do-elemento{
-    font-size: 2em;
-    text-shadow: 2px 2px 2.6px rgba(0, 0, 0, 0.139);
+    font-size: 1.6em;
+    text-shadow: 2px 2px 2.2px rgba(0, 0, 0, 0.139);
     color: black;
 }
 
 table#tabela-cabecalho td.nomes-dados-do-elemento{
-    border: none;
+    border: white;
     padding-left: 100px;
     text-align: left;
     width: 245px;
@@ -91,7 +100,7 @@ table#tabela-cabecalho td.numero{
 /* ############# CSS Tabela Principal ############# */
 
 table {
-    border-spacing: 4px;
+    border-spacing: 3px;
 }
 
 table#tabela-principal {
@@ -118,7 +127,7 @@ td {
     font-weight: bolder;
     text-align: left;
     padding-bottom: 30px;
-    border: none;
+    border: white;
 }
 
 .sigla-elemento{
@@ -175,13 +184,13 @@ table#tabela-secundaria {
 
 td.linha-branca {
     background-color: white; 
-    border: none; 
-    height: 30px;
+    border: white; 
+    height: 12px;
 }
 
 td.elementos-brancos {
     background-color: white; 
-    border: none;
+    border: white;
 }
 
 tr.tabela-secundaria-linha-1 {
@@ -197,13 +206,14 @@ tr.tabela-secundaria-linha-2 {
 
 table#tabela-rodape {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 13px;
     margin-bottom: 70px;
+    min-height: 10px;
 }
 
 table#tabela-rodape td {
-    border: none;
-    min-width: 20px;
+    border: white;
+    min-width: 15px;
 }
 
 td.grupo {
