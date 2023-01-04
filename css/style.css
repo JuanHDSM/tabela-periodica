@@ -4,6 +4,7 @@
 
 :root {
     --fonte-titulo: 'Lato', sans-serif;
+    --background-hover-color: rgba(211, 211, 211, 0.550);
 }
 
 
@@ -40,7 +41,7 @@ p {
 }
 
 td:hover {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.500);
 }
 
 
@@ -154,33 +155,66 @@ td {
 .laranja {
     background-color: #F1B200;
 }
+.laranja:hover {
+    /* background-color: rgba(211, 211, 211, 0.650); */
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
+}
 
 .amarelo {
     background-color: #EADA00;
+}
+.amarelo:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
 }
 
 .rosa {
     background-color: #EB8E8E;
 }
+.rosa:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
+}
 
 .azul-claro2 {
     background-color: #91BDCB;
+}
+.azul-claro2:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
 }
 
 .azul {
     background-color: #5AC3E8;
 }
+.azul:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
+}
 
 .azul-escuro {
     background-color: #2793E0;
+}
+.azul-escuro:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
 }
 
 .verde-claro {
     background-color: #96CD30;
 }
+.verde-claro:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
+}
 
 .verde-azulado {
     background-color: #44A69C;
+}
+.verde-azulado:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
 }
 
 .branco {
@@ -210,9 +244,17 @@ td.elementos-brancos {
 .azul-claro {
     background-color: #7bdee5;
 }
+.azul-claro:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
+}
 
 .lilas {
     background-color: #D49BCD;
+}
+.lilas:hover {
+    background-color: var(--background-hover-color);
+    transition: 0.3s;
 }
 
 
