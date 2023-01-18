@@ -217,8 +217,12 @@ td {
     transition: 0.3s;
 }
 
-.branco {
-    background-color: white
+.branco1:hover {
+    background-color: #7bdee5;
+}
+
+.branco2:hover {
+    background-color: #D49BCD;
 }
 
 
