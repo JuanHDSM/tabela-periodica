@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="ico/tabela-periodica.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="shortcut icon" href="/assets/ico/tabela-periodica.ico" type="image/x-icon">
     <title>Tabela Periódica</title>
 </head>
 <body>
@@ -50,12 +50,12 @@
                     <th rowspan="2">17</th>
                     <th style="background-color: white" class="espaco">18</th>
                 <tr>
-                    <td class="verde-claro"><p class="sigla-elemento">H</p> <p class="nome-elemento">Hidrogênio</p><p class="numero-atomico">1</p></td>
+                    <td class="verde-claro" onclick="dataVerde()"><p class="sigla-elemento">H</p> <p class="nome-elemento">Hidrogênio</p><p class="numero-atomico">1</p></td>
                     <td class="azul-escuro"><p class="sigla-elemento">He</p> <p class="nome-elemento">Hélio</p><p class="numero-atomico">2</p></td>
                 </tr>
                 <tr>
-                    <td class="laranja"><p class="sigla-elemento">Li</p> <p class="nome-elemento">Lítio</p><p class="numero-atomico">3</p></td>
-                    <td class="amarelo"><p class="sigla-elemento">Be</p> <p class="nome-elemento">Berílio</p><p class="numero-atomico">4</p></td>
+                    <td class="laranja" onclick="dataLaranja()"><p class="sigla-elemento">Li</p> <p class="nome-elemento">Lítio</p><p class="numero-atomico">3</p></td>
+                    <td class="amarelo" onclick="dataAmarelo()"><p class="sigla-elemento">Be</p> <p class="nome-elemento">Berílio</p><p class="numero-atomico">4</p></td>
                     <td class="verde-azulado"><p class="sigla-elemento">B</p> <p class="nome-elemento">Boro</p><p class="numero-atomico">5</p></td>
                     <td class="verde-claro"><p class="sigla-elemento">C</p> <p class="nome-elemento">Carbono</p><p class="numero-atomico">6</p></td>
                     <td class="verde-claro"><p class="sigla-elemento">N</p> <p class="nome-elemento">Nitrogênio</p><p class="numero-atomico">7</p></td>
@@ -64,7 +64,7 @@
                     <td class="azul-escuro"><p class="sigla-elemento">Ne</p> <p class="nome-elemento">Neônio</p><p class="numero-atomico">10</p></td>
                 </tr>
                 <tr>
-                    <td class="laranja"><p class="sigla-elemento">Na</p> <p class="nome-elemento">Sódio</p><p class="numero-atomico">11</p></td>
+                    <td class="laranja" onclick="dataLaranja()"><p class="sigla-elemento">Na</p> <p class="nome-elemento">Sódio</p><p class="numero-atomico">11</p></td>
                     <td class="amarelo"><p class="sigla-elemento">Mg</p> <p class="nome-elemento">Magnésio</p><p class="numero-atomico">12</p></td>
                     <td class="azul-claro2"><p class="sigla-elemento">Al</p> <p class="nome-elemento">Alumínio</p><p class="numero-atomico">13</p></td>
                     <td class="verde-azulado"><p class="sigla-elemento">Si</p> <p class="nome-elemento">Silício</p><p class="numero-atomico">14</p></td>
@@ -245,5 +245,6 @@
         
     </footer>
 
+<script src="/assets/scripts/script.js"></script>
 </body>
 </html>
